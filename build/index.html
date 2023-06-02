@@ -6,43 +6,76 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CINNAMON</title>
-  <!--   <script src="https://cdn.tailwindcss.com"></script> -->
+
     <link rel="stylesheet" href="./style.css">
-      <script src="https://cdn.tailwindcss.com"></script>s
+      <script src="https://cdn.tailwindcss.com"></script>
 
     
 </head>
+
 <body class="m-3">
-   <nav class="bg-gray-900 m-5 p-10 bg-[url('./purple.png')]" >
+
+    <header>
+   
+        <nav class="flex-row">
         <!-- <li class="flex flex-row-center" > -->
-            <div class="relative ">
-                <img src="" alt="" class="nav-image">
-                <a href="#" class="mr-3 hover:text-purple-950 text-white">Home</a>
 
-                <a href="#" class="mr-3 hover:text-purple-950 text-white">About Us</a>
-                <a href="#" class="mr-3 hover:text-purple-950 text-white">Careers</a>
-                <a href="#" class="mr-3 hover:text-purple-950 text-white">Blog</a>
+            <div class="flex justify-start">
+
+              <!--   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 355 45" width="355" height="45" preserveAspectRatio="xMidYMid slice" style="width: 100%; height: 100%; transform: translate3d(0px, 0px, 0px); content-visibility: visible;">…</svg>
+
+ -->
             </div>
 
-            <div class="absolute top-6 right-2">
-                <img src="" alt="nav-button" class="mr-4">
-                <a href="#" class="nav-contact " class="scroll-mr-0.5">CONTACT US</a>
+            <div class="flex justify-end space-x-6 m-5 p-3 bg-slate-600">
+
+                
+                <div><a href="#">Home</a> </div>
+           
+                <div><a href="#" >About Us</a></div>
+                <div> <a href="#">Careers</a></div>
+                <div><a href="#">Blog</a></div>           
+                <button><img src="" alt="" srcset="">play</button>
+
+                <div class="contact">
+                    CONTACT US
+
+                </div>
             </div>
-        </li>
+        
+        </nav>
+    </header>
 
-   </nav>
-   <h1 class="m-4 text-5xl font-extrabold text-slate-900">Results focused design &
-    development agency.</h1>
-    <p class="m-2 text-justify ">Extend your team with our high performing specialists or hire us to shape your product from scratch. Either way, we’ll get your product off the ground and build a momentum for your success.</p>   
+    <section class="bg-slate-900">
+    
+        <div class="text-black font-bold p-8 text-4xl w-1/3 bg">
+            <h1 >Results focused design &
+        development agency.</h1>
+        </div>
 
-    <br>
+    
+    
+        <div class="flex justify-between ">
+
+            <p class="m-2 text-justify w-1/2 ">Extend your team with our high performing specialists or hire us to shape your product from scratch. Either way, we’ll get your product off the ground and build a momentum for your success.</p> 
+            
+            <div class=" mt-12 rounded-full bg-slate-950 rou">
+                <img src="../images/fast50image (1).png" alt="" srcset="">
+            </div>
+        </div>
+    </section>
 
    <section>
         <div class="bg-yellow-400 m-14">
-            <img src="./images1/ios dev.png" alt="ios development">
-        </div>
-        <h1 class="m-4 text-5xl font-extrabold text-slate-900">smart Build: Maximize your field survey</h1>
+            <div class=" transform hover:scale-y-110 hover:scale-x-110">
+                <img src="./images1/ios dev.png" alt="ios development">
+            </div>
 
+        </div>
+
+        <div>
+            <h1 class="m-4 text-5xl font-extrabold text-slate-900">smart Build: Maximize your field survey</h1>
+        </div>
 
         <div>
             <p>
@@ -50,7 +83,9 @@
             </p>
 
             <div class="bg-green-300 m-14" >
-                <img src="./images1/quality assuarance.png" alt="assuarance">
+                <div class="hover:scale-110">
+                    <img src="./images1/quality assuarance.png" alt="assuarance">
+                </div>
             </div>
            
             <div class="flex flex-row space-x-5 m-14 text-lg text-opacity-5">
@@ -69,11 +104,12 @@
             
         </p>
 
-        <div class="bg-purple-800 m-14">
-        <img src="./images1/purple.png" alt="fiance made">
-     
+        <div class="bg-purple-800 ml-10 overflow-hidden ">
+            <div class="hover:scale-110">
+                <img src="./images1/purple.png" alt="fiance made">
+            </div>
         </div>
-        <div class="flex flex-row p-3 space-x-4 m-14">
+        <div class="flex ml-9 space-x-5 my-4 text-slate-600 font-bold">
             <p>PRODUCT DESIGN</p>
             <p>WEB DEVELOPMENT</p>
         </div>
@@ -83,19 +119,83 @@
 
    <article>
         <div>
-            <h1 class="m-4 text-5xl font-extrabold text-slate-900 ">
+            <h1 class="m-4 text-5xl font-extrabold text-slate-900 w-1/3 p-10 ">
                 Fiona: Engage &
                 Decide
             </h1>
         </div>
 
 
-        <p class="m-4 text-gray-600 text-lg font-medium">Fiona is a fintech consumer-facing website that enables users to search for financial products, discover them, and receive personalized recommendations.</p>
+        <p class=" text-gray-600 text-lg font-medium w-2/3 my-10">Fiona is a fintech consumer-facing website that enables users to search for financial products, discover them, and receive personalized recommendations.</p>
+
+    <section>
+
+        <div class="flex justify-between">
+            <div class="flex justify-start">
+                <h2>Our services
+                </h2>
+            </div>
+
+            <div class="flex-col gap-9">
+                <div class="flex leading-4 w-1/3 p-5">
+                    <div class="">
+                        <img src="" alt="">
+                        <h5>Product design</h5>
+                        <p>Producing, prototyping and testing sketches, high-fidelity wireframes and the final UI is a process that results in intuitive and impactful design that’s easy on the eyes.</p>
+                    </div>
+
+                    <div class="">
+                        <img src="" alt="">
+                        <h5>Development</h5>
+                        <p>By selecting the befitting tech stack and architecture for the deliverable in question, we build out the product until it's a fully-fledged digital solution..</p>
+                    </div>
+                </div>
+            
+
+                <div class="flex leading-4 w-1/3 p-5">
+                    <div class="">
+                        <img src="" alt="">
+                        <h5>Quality assurance</h5>
+                        <p>Our QA engineering team makes your product bug-free, bulletproof and performance-driven through both automatic and manual testing.</p>
+                    </div>
+                    
+
+                    <div>
+                        <img src="" alt="">
+                        <h5>Marketing & growth</h5>
+                        <p>By understanding the mechanics of digital marketing, we make sure to put your product, at the right time, in front of the right people..</p>
+                    </div>
+                </div>
+
+            </div>
+                
+
+    
+        
+        </div>
+
+        <button class="bg-blue-800 text-white p-5 rounded-md "> <p>see our services </p></button>
+    </section>
 
 
-        <footer class="bg-slate-800 text-white ">
+    <section>
+
+        <div>
+            <div>
+
+            </div>
+            
+            <div>
+
+            </div>
+        </div>
+
+    </section>
+
+
+       <!--  <footer class="bg-slate-800 text-white "> -->
             <!-- annimation CINNAMON -->
-            <div class="font-extrabold m-5">
+           <!--  <div class="font-extrabold m-5">
             <h2>All software,</h2>
              <h2> zero bullshit.</h2>
             </div>
@@ -112,8 +212,8 @@
   <div class="flex flex-col">
     <ul>
       <li><a href="#">About Us</a></li>
-      <li><a href="#">Careers</a></li>
-      <li><a href="#">Blog</a></li>
+      <li><a href="#">Careers</a></li> -->
+    <!--   <li><a href="#">Blog</a></li>
     </ul>
   </div>
 </div>
@@ -136,8 +236,8 @@
                 
             
              </div>
-
-             <h1 class="font-extrabold m-5 mt-10">Our newsletter</h1>
+ -->
+           <!--   <h1 class="font-extrabold m-5 mt-10">Our newsletter</h1>
 
             <form action="post">
                 <div class="m-5">
@@ -155,7 +255,7 @@
                 <p>&copy; 2023 Cinnamon</p>
                 <span>
                     <a href="#"> privacy policy </a>
-
+ --><!-- 
                 </span> 
             </div>
 
@@ -164,7 +264,7 @@
 
         </footer>
 
-        <!-- 
+        
 
         <div>
             <h2>Scope of work</h2>
@@ -179,8 +279,8 @@
             </div>
         <div>
             <p>SWIFTUI</p>
-            <p>STOREKIT</p>
-            <p>COREDATA</p>
+            <p>STOREKIT</p> -->
+       <!--      <p>COREDATA</p>
             <p>FASTLANE</p>
             <p>PROXYMAN</p>
             <p>GIT</p>
@@ -203,10 +303,10 @@
         </div>
 
  
-
-    </article>
-
-    <SECTION>
+ -->
+ <!--    </article>
+ -->
+    <!-- SECTION>
         <div>
             <h2>Most challenging feature: PDF map manipulation</h2>
             <div>
@@ -222,14 +322,14 @@
         </div>
 
         <img src="" alt="">
-    </SECTION>
+    </SECTION> -->
 
 
 
 
-    </section>
+    <!-- </section> -->
 
 
       
 </body>
-</html> -->
+</html>
